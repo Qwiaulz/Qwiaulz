@@ -1,60 +1,55 @@
 # 👋 Hi, I'm Eugene Qwiaulz
 
-I'm a student who develop **own projects** instead of just doing assignments.
+I build systems that connect product logic, user experience, and backend architecture.
 
-My main interest is **designing systems**:
-- how features interact with each other
-- how users discover functionality
-- how permissions, UX, and automation coexist without chaos
+My focus is on:
+- how features interact as a system
+- how users discover and navigate functionality
+- how permissions, automation, and UX can coexist without breaking each other
 
-I focus on:
-- 🧠 product thinking
-- 🎛️ UX flows & interaction design
-- 🏗️ system architecture & integrations
-
-Implementation is done with the help of AI tools.
-I use them as an instrument — not a replacement for thinking,
-but a way to move faster from idea to working system.
+I use AI tools as a development accelerator, while maintaining full responsibility for system design, architecture, and implementation decisions.
 
 ---
 
 ## 🚀 Featured Project
 
-### 🤖 Qwilaris Telegram Bot
-A production-ready Telegram bot with:
-- AI-powered chat
-- media search (Gelbooru / Rule34 / Pinterest)
-- inline mode
-- permission-based NSFW system
-- clean async architecture
+### 🤖 Qwilaris Agent System (Telegram AI Runtime)
 
-👉 Repository: *(currently private, may become public)*  
-👉 Live bot: [@qwilarisbot](https://t.me/qwilarisbot)
+A modular Telegram-based AI system built with Clean Architecture and async event-driven design.
+
+The system goes beyond a simple chatbot and implements a structured message processing pipeline:
+
+- intent classification and policy evaluation layer
+- multimodal input processing (image, audio, video)
+- stateful conversation orchestration
+- permission-based feature gating (chat, NSFW, tools access)
+- adaptive response behavior based on user context and interaction state
+
+The architecture separates:
+
+- domain logic (entities, policies, rules)
+- application layer (orchestration, use cases)
+- infrastructure layer (AI providers, storage, integrations)
+- presentation layer (Telegram bot interface)
+
+The Telegram bot is only one interface over the core runtime.
 
 ---
 
-## 🛠️ What I work with
-- Product & UX design
-- System architecture
-- API integrations
+## 🛠️ Stack & Interests
+- System design & product architecture
+- API integrations & distributed workflows
 - Async Python ecosystem (aiogram, FastAPI, PostgreSQL)
-- AI-assisted development
+- AI-assisted engineering workflows
 
 ---
 
-## 🎯 What I'm aiming for
-I'm not trying to be "just a coder".
-
-I'm interested in roles where:
-- ideas matter
-- systems are complex
-- UX decisions are as important as code
+## 🎯 Direction
+I'm interested in building systems where:
+- product logic is as important as implementation
+- UX and backend are designed together
+- complexity is managed through architecture, not ad-hoc code
 
 ---
 
-📫 **Contact**
-- Telegram: [@qwilaris](https://t.me/qwilaris)
-
----
-
-**Last Updated**: January 2026
+📫 Telegram: @qwilaris
